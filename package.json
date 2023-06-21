@@ -1,0 +1,19 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "A multiplayer tictactoe",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "debug": "node_modules/.bin/nodemon --inspect server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.1.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
